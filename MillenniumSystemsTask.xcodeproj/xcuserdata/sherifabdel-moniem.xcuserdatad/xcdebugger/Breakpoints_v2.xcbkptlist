@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8DE0119C-EA07-4C38-BDA1-55F186825D42"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DEE1E76-CAFA-40D1-8FFD-1863E8F7E6F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/WhatSapStories/View/DrawingScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D71CDDE-32DB-4C39-933A-4F5CE397A337"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "showAddTextBottomSheetView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3D71CDDE-32DB-4C39-933A-4F5CE397A337 - 7e9009b995a887bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MillenniumSystemsTask.FilterViewModel.showAddTextBottomSheetView() -&gt; ()"
+                  moduleName = "MillenniumSystemsTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherifabdel-moniem/Documents/MillenniumSystemsTask/MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "286">
+               </Location>
+               <Location
+                  uuid = "3D71CDDE-32DB-4C39-933A-4F5CE397A337 - 7e9009b995a887bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MillenniumSystemsTask.FilterViewModel.showAddTextBottomSheetView() -&gt; ()"
+                  moduleName = "MillenniumSystemsTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherifabdel-moniem/Documents/MillenniumSystemsTask/MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "626">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D86D7172-8AB7-48CE-953C-CD1AE16D095F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "showAddTextBottomSheetView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C10BCA7-E697-45CF-81AC-59D044E4E28A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/ImageFilter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "addText"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0C7A383-6959-4A60-A5E1-FDFF5ACDFF90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/ImageFilter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "addText"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BB58267-2709-4415-A3D0-0B6489AEF733"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "cancelTextView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25A7E3EE-83BB-4BD4-8F49-033D828454CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "cancelTextView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25A7E3EE-83BB-4BD4-8F49-033D828454CB - 5d676bdf51637415"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MillenniumSystemsTask.FilterViewModel.cancelTextView() -&gt; ()"
+                  moduleName = "MillenniumSystemsTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherifabdel-moniem/Documents/MillenniumSystemsTask/MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "25A7E3EE-83BB-4BD4-8F49-033D828454CB - 5d676bdf51637415"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MillenniumSystemsTask.FilterViewModel.cancelTextView() -&gt; ()"
+                  moduleName = "MillenniumSystemsTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherifabdel-moniem/Documents/MillenniumSystemsTask/MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "226">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2DE7C6D-E0FA-4882-B981-8D16DB955B43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MillenniumSystemsTask/ImageFilter/Model/FilterViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "cancelTextView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

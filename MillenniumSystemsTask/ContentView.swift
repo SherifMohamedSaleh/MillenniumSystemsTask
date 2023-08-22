@@ -14,7 +14,7 @@ enum DrawingMode: String, CaseIterable, Identifiable {
 
 struct ContentView: View {
     
-    @State private var mode: DrawingMode = .path
+    @State private var mode: DrawingMode = .image
 
     var body: some View {
         VStack{

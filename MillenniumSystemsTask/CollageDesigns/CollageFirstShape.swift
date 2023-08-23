@@ -12,7 +12,7 @@ struct CollageFirstShape: View {
     @State private var sectionImages: [UIImage?]
     
     @State private var showingImagePicker = false
-    @State var currentIndex = 0
+//    @State var currentIndex = 0
     
     init() {
         self._sectionImages = State(initialValue: Array(repeating: nil, count: 2))
@@ -23,7 +23,7 @@ struct CollageFirstShape: View {
             let numberOfSections = self.sectionImages.count
             
             ForEach(0..<numberOfSections, id: \.self) { index in
-                ZStack{
+              
                     
                     self.getShape(for: index)
                         .fill( index == 0 ? Color.red : Color.green)
@@ -32,30 +32,19 @@ struct CollageFirstShape: View {
                                 .resizable()
                         )
                         .clipped()
-                    
-                    
                         .onTapGesture {
-                            
-                            self.selectImage(for: index)
-                        }
+                    print("index is \(index)")
+                    self.selectImage()
                     
-                }
-                
-                .onTapGesture {
-                    
-                    self.selectImage(for: index)
-                    
-                }
+                }.sheet(isPresented: $showingImagePicker) {
+                    ImagePicker(image:  self.$sectionImages[index])
             }
-        }.sheet(isPresented: $showingImagePicker) {
-            ImagePicker(image:  self.$sectionImages[currentIndex])
+        }
         }
     }
     
-    private func selectImage(for index: Int) {
-        currentIndex = index
+    private func selectImage() {
         self.showingImagePicker = true
-        
     }
     
     private func getShape(for index: Int) -> Path {

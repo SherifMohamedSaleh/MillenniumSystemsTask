@@ -9,37 +9,31 @@ import Foundation
 import SwiftUI
 
 struct CollageFirstShape: View {
-    @State private var sectionImages: [UIImage?]
+    @State private var sectionImages: [UIImage?] = [ UIImage() , UIImage()]
     
     @State private var showingImagePicker = false
-//    @State var currentIndex = 0
-    
-    init() {
-        self._sectionImages = State(initialValue: Array(repeating: nil, count: 2))
-    }
-    
+
     var body: some View {
         GeometryReader { geometry in
             let numberOfSections = self.sectionImages.count
             
             ForEach(0..<numberOfSections, id: \.self) { index in
-              
-                    
-                    self.getShape(for: index)
-                        .fill( index == 0 ? Color.red : Color.green)
-                        .overlay(
-                            Image(uiImage:  self.sectionImages[index] ?? UIImage())
-                                .resizable()
-                        )
-                        .clipped()
-                        .onTapGesture {
-                    print("index is \(index)")
-                    self.selectImage()
-                    
-                }.sheet(isPresented: $showingImagePicker) {
-                    ImagePicker(image:  self.$sectionImages[index])
+       
+                self.getShape(for: index)
+                    .fill( index == 0 ? Color.red : Color.green)
+                    .overlay(
+                        Image(uiImage:  self.sectionImages[index] ?? UIImage())
+                            .resizable()
+                    )
+                    .clipped()
+                    .onTapGesture {
+                        print("index is \(index)")
+                        self.selectImage()
+                        
+                    }.sheet(isPresented: $showingImagePicker) {
+                        ImagePicker(image:  self.$sectionImages[index])
+                    }
             }
-        }
         }
     }
     

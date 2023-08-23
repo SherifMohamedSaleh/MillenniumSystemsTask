@@ -7,6 +7,8 @@
 
 import Foundation
 import SwiftUI
+import UIKit
+
 
 struct CollageBezierPathScreen: View {
     var body: some View {
@@ -14,17 +16,17 @@ struct CollageBezierPathScreen: View {
         ZStack {
             AngularGradient(gradient: Gradient(colors: [.cyan , .purple, .purple , .cyan]), center: .topLeading).ignoresSafeArea()
             VStack(alignment: .center, content: {
-                Spacer(minLength: 50)
+                Spacer(minLength: 10)
                 
+                Text("Image with selection for only index 0")
                 CollageFirstShape()
                     .frame(width: 200, height: 200)
                 
-                Spacer(minLength: 50)
-                CollageSecondShape()
-                    .stroke(Color.green  , lineWidth :2)
-                    .padding([.leading , .trailing ] ,  (UIScreen.main.bounds.size.width - 200) * 0.5)
+                Text("colors with selection ")
                 
-                Spacer(minLength: 20)
+                CollageSecondShape().frame(width: 200 , height: 200)
+                
+                Text("only path")
                 
                 CollageThirdShape()
                     .stroke(Color.green  , lineWidth :2)
@@ -41,4 +43,3 @@ struct CollageBezierPathScreen_Previews: PreviewProvider {
             .padding()
     }
 }
-

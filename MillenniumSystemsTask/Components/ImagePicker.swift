@@ -6,6 +6,51 @@
 //
 
 import SwiftUI
+import PhotosUI
+
+
+enum ImageSelectionEnum:Int {
+    case single = 1
+    case multy = 0
+}
+struct ImageMultyPicker: UIViewControllerRepresentable {
+    @Binding var selectedImages: [UIImage]
+    @Binding var imageSelectionMode: ImageSelectionEnum
+    func makeUIViewController(context: Context) -> PHPickerViewController {
+        var configuration = PHPickerConfiguration()
+        configuration.selectionLimit = imageSelectionMode.rawValue // Set to 0 for no limit (select multiple images)
+        let picker = PHPickerViewController(configuration: configuration)
+        picker.delegate = context.coordinator
+        return picker
+    }
+    func updateUIViewController(_ uiViewController: PHPickerViewController, context: Context) {}
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    class Coordinator: PHPickerViewControllerDelegate {
+        var parent: ImageMultyPicker
+        init(_ parent: ImageMultyPicker) {
+            self.parent = parent
+        }
+        func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+            for result in results {
+                if result.itemProvider.canLoadObject(ofClass: UIImage.self) {
+                    result.itemProvider.loadObject(ofClass: UIImage.self) { image, error in
+                        if let image = image as? UIImage {
+                            DispatchQueue.main.async {
+                                self.parent.selectedImages.append(image)
+                            }
+                        }
+                    }
+                }
+            }
+            picker.dismiss(animated: true, completion: nil)
+        }
+    }
+}
+
+
+
 
 struct ImagePicker: UIViewControllerRepresentable {
     @Environment(\.presentationMode) var presentationMode

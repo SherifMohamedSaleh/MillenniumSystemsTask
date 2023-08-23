@@ -20,6 +20,7 @@
 		92AAD5862A93A50600B4CCFF /* CollageSecondShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AAD5852A93A50600B4CCFF /* CollageSecondShape.swift */; };
 		92AAD5882A93A68500B4CCFF /* CollageThirdShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AAD5872A93A68500B4CCFF /* CollageThirdShape.swift */; };
 		92AAD5B52A94D6DB00B4CCFF /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AAD5B42A94D6DB00B4CCFF /* TextBox.swift */; };
+		92AAD5BA2A9685E600B4CCFF /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AAD5B92A9685E600B4CCFF /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		92AAD5872A93A68500B4CCFF /* CollageThirdShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageThirdShape.swift; sourceTree = "<group>"; };
 		92AAD5B42A94D6DB00B4CCFF /* TextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
 		92AAD5B82A94E9BB00B4CCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		92AAD5B92A9685E600B4CCFF /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				92AAD57A2A93816200B4CCFF /* ImagePicker.swift */,
+				92AAD5B92A9685E600B4CCFF /* PhotoView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				92AAD5532A937D0E00B4CCFF /* ContentView.swift in Sources */,
 				92AAD57B2A93816200B4CCFF /* ImagePicker.swift in Sources */,
 				92AAD5782A9380D300B4CCFF /* FilterViewModel.swift in Sources */,
+				92AAD5BA2A9685E600B4CCFF /* PhotoView.swift in Sources */,
 				92AAD5762A9380B900B4CCFF /* FilterModel.swift in Sources */,
 				92AAD5652A937F3E00B4CCFF /* ImageFilter.swift in Sources */,
 				92AAD5882A93A68500B4CCFF /* CollageThirdShape.swift in Sources */,

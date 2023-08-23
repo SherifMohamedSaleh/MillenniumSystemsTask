@@ -26,11 +26,9 @@ struct CollageBezierPathScreen: View {
                 
                 CollageSecondShape().frame(width: 200 , height: 200)
                 
-                Text("only path")
+                Text("working as expected with dragble issue")
+                CollageThirdShape().frame(width: 200 , height: 200)
                 
-                CollageThirdShape()
-                    .stroke(Color.green  , lineWidth :2)
-                    .padding([.leading , .trailing ] ,  (UIScreen.main.bounds.size.width - 200) * 0.5)
                 
             })
             

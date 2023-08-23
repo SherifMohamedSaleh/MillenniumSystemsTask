@@ -13,20 +13,20 @@ enum DrawingMode: String, CaseIterable, Identifiable {
 
 
 struct ContentView: View {
-    
+
     @State private var mode: DrawingMode = .image
 
     var body: some View {
         VStack{
-            
+
             Picker("Mode", selection: $mode) {
                 Text("image").tag(DrawingMode.image)
                 Text("path").tag(DrawingMode.path)
-                
+
             }
             .pickerStyle(.segmented)
 
-            
+
             if(mode == .image){
                 ImageFilter()
             }else if(mode == .path){
@@ -42,3 +42,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
